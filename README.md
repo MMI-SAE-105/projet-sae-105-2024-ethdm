@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : HENNEQUIN DE MEYER
+- PRÉNOM : ETHAN
+- GROUPE : B1
+- URL du site : 
+- URL FIGMA : https://www.figma.com/design/p4s2wLUDOOmPbQU2GEDkFU/Maquettes-projet-individuel-%E2%80%94-Ethan-Hennequin-De-Meyer?node-id=3757-149&t=udfXwrPwUJTsP8Gz-1
