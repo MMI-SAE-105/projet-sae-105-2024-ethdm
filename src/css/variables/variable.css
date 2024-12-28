@@ -1,0 +1,19 @@
+:root {
+    /* Color styles */
+    --background: #fff;
+    --txt: #000;
+    --couleur-secondaire: #2d2d2d;
+    --txtsec: #fff;
+
+    /* Text-size styles */
+
+      
+    /* Font-family styles */
+    --hea1f: "Viaoda Libre", normal, 36px;
+    --hea2f: "Viaoda Libre", normal, 20px;
+    --hea3f: "Sura", bold, 18px;
+    --body1f: "Sura", normal, 22px;
+    --body2f: "Sura", normal, 15px;
+    --smalltext: "Sura", normal, 8px;
+    --bouton: "Montserrat", bold, 14px;
+    }

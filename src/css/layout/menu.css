@@ -1,0 +1,93 @@
+.menu {
+    margin-top: 180px;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: #282828;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+  }
+
+  .menu[aria-hidden="false"] {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .menu__list {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 36px;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  
+  .menu__list.listUnstyled {
+    list-style: none;
+    padding-left: 0;
+
+  }
+  
+  .menu__item {
+    margin-top: 15%;
+  }
+  
+  .menu__link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-btn {
+    margin-top: 36px;
+    position: relative;
+    z-index: 3;
+    width: 30px;
+    margin-right: 1px;
+  }
+  
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .menu-btn__bar::before {
+    top: -10px;
+  }
+  
+  .menu-btn__bar::after {
+    top: 10px;
+  }
+  
+
+  .menu-btn[aria-expanded="true"] .menu-btn__bar,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: rgb(255, 255, 255);
+  }
+  
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+  }
+  
+
+  .ligne {
+    width: 70%;
+    height: 1.2px;
+    background-color: rgb(255, 255, 255); 
+    margin: 20px auto;
+}

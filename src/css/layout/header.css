@@ -1,0 +1,39 @@
+
+
+.header{
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 37px;
+    background-color: #282828;
+}
+
+.header__title{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+    margin-left: 1rem;
+}
+
+.header__menu-btn{
+    z-index: 10;
+    position: absolute;
+    top: -15px;
+    right: 1px;
+}
+
+.headerprog{
+    font-weight: 400;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.header_image img{
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
+    border-radius: 8px;
+}

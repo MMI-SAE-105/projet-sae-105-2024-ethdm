@@ -1,0 +1,91 @@
+.h1 {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 36px;
+}
+
+.h2 {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+}
+
+.p{
+    font-family: 'Sura';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%;
+    letter-spacing: 0.15px;
+}
+
+.block{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 17px;
+}
+
+/* bloc article page accueil*/
+
+.containerb {
+    width: 600px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.separatorb {
+    border-top: 1px solid #000;
+    margin: 10px 0;
+}
+
+.image-containerb img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contentb {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contentb h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.contentb p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.contentb strong {
+    font-weight: bold;
+}
+
+.bbutton-container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bbutton:hover {
+    background: #333;
+    color: #fff;
+}
+
+/*fin bloc article page accueil*/
