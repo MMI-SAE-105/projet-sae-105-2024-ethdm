@@ -9,11 +9,17 @@
     padding-top: 20px;
 }
 .content h1 {
-    font-size: 1.8em;
+    font-size: 36px;
     margin-bottom: 10px;
 }
-.content p {
+
+.content h2 {
+    font-size: 20px;
     margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 15px;
 }
 .content strong {
     font-weight: bold;
@@ -21,4 +27,21 @@
 .underline {
     text-decoration: underline;
 }
+
+.ligne {
+    border-top: 1px solid #000;
+    margin: 10px 0;
+}
+
+/* a propos */
+
+.logoap img {
+    padding-top: 197px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
 

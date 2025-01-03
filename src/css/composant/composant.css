@@ -1,11 +1,13 @@
 .h1 {
     font-family: 'Viaoda Libre', cursive;
     font-size: 36px;
+    font-weight: normal;
 }
 
 .h2 {
     font-family: 'Viaoda Libre', cursive;
     font-size: 20px;
+    font-weight: normal;
 }
 
 .p{
@@ -24,19 +26,23 @@
     margin: 17px;
 }
 
+.center{
+    text-align: center;
+}
+
 /* bloc article page accueil*/
 
 .containerb {
-    width: 600px;
+    display: block;
+    align-items: center;
+    width: 335px;
     background: #fff;
     padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.separatorb {
+.ligne {
     border-top: 1px solid #000;
-    margin: 10px 0;
+    margin: 10px 20px;
 }
 
 .image-containerb img {
@@ -46,41 +52,48 @@
 }
 
 .contentb {
-    text-align: center;
     margin-top: 15px;
 }
 
-.contentb h1 {
-    font-size: 1.5em;
+.contentb h2 {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 .contentb p {
-    font-size: 1em;
-    line-height: 1.6;
+    font-family: 'Sura';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%;
+    letter-spacing: 0.15px;
 }
 
 .contentb strong {
-    font-weight: bold;
+    font-family: 'Sura';
+    font-size: 15px;
 }
 
 .bbutton-container{
     margin-top: 20px;
-    text-align: center;
 }
 
 .bbutton {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 0.9em;
+    padding: 5px;
     font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-align: center;
     text-decoration: none;
     color: #333;
     border: 2px solid #333;
     background: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
+
 }
 
 .bbutton:hover {
@@ -89,3 +102,4 @@
 }
 
 /*fin bloc article page accueil*/
+
