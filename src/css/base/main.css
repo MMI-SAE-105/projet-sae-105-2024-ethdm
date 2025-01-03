@@ -7,6 +7,7 @@
 }
 .content {
     padding-top: 20px;
+    margin: 7px;
 }
 .content h1 {
     font-size: 36px;
@@ -33,6 +34,13 @@
     margin: 10px 0;
 }
 
+.containerso {
+    padding-top: 195px;
+}
+
+.underline {
+    text-decoration: underline 0.5px;
+}
 /* a propos */
 
 .logoap img {
