@@ -22,6 +22,7 @@
 .content p {
     margin-bottom: 15px;
 }
+
 .content strong {
     font-weight: bold;
 }
@@ -41,6 +42,11 @@
 .underline {
     text-decoration: underline 0.5px;
 }
+
+.w{
+    color:#fff
+}
+
 /* a propos */
 
 .logoap img {
@@ -50,6 +56,69 @@
     display: block;
 }
 
+/* article 1 */
 
+.image-block {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.image-block img {
+    width: 95%;
+    max-width: 600px;
+    height: auto;
+    align-items: center;
+}
+
+.image-block figcaption {
+    text-align: start;
+    font-family: 'sura';
+    font-size: 8px;
+    color: #000;
+    margin: 10px 10px;
+}
+
+.movie-posters {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px -10px;
+}
+
+.poster {
+    width: 50%;
+}
+
+.poster2001 {
+    width: 50%;
+}
+
+.poster img {
+    width: 146px;
+    height: 215px;
+    display: block;
+    margin: 0 auto;
+}
+
+.poster2001 img{
+    width: 152px;
+    height: 215px;
+    display: block;
+    margin: 0 auto;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
 
 
