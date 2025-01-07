@@ -1,12 +1,10 @@
 
 
 .header-image img {
-    padding-top: 10px;
     width: 100%;
     height: auto;
 }
 .content {
-    padding-top: 20px;
     margin: 7px;
 }
 .content h1 {
@@ -35,8 +33,13 @@
     margin: 10px 0;
 }
 
+.ligneart2 {
+    border-top: 1px solid #000;
+    margin: 10px 20px 10px;
+}
+
 .containerso {
-    padding-top: 195px;
+    padding-top: 130px;
 }
 
 .underline {

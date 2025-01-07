@@ -1,0 +1,34 @@
+.carousel__container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel__controls {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px 16px;
+  }
+
+  .carousel__button--prev {
+    transform: rotate(180deg);
+  }
+  
+  .carousel__container {
+    display: flex; 
+    gap: 10px; 
+    overflow-x: scroll; 
+    margin: 0 -24px; 
+    scroll-snap-type: x mandatory; 
+  }
+  
+  .carousel__item {
+    display: flex;
+    flex: 1 0 80%; 
+    scroll-snap-align: center; 
+  }
+  
+  .carousel__item img {
+    display: block; 
+    
+  }

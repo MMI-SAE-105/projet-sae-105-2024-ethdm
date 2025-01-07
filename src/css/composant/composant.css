@@ -58,16 +58,15 @@
 /* bloc article page accueil*/
 
 .containerb {
-    display: block;
-    align-items: center;
+    margin: 0 auto;
     width: 335px;
     background: #fff;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .ligne {
     border-top: 1px solid #000;
-    margin: 10px 0px;
+    margin: 10px 25px 10px 0px;
 }
 
 .image-containerb img {

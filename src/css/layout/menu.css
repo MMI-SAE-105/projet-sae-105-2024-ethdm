@@ -1,10 +1,8 @@
 .menu {
-    margin-top: 180px;
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
-    position: fixed;
-    display: flex;
+    position: scroll;
     position: fixed;
     inset: 0;
     background-color: #282828;
@@ -19,7 +17,7 @@
   
   .menu__list {
     font-family: 'Viaoda Libre', cursive;
-    font-size: 36px;
+    font-size: 28px;
     list-style: none;
     width: 100%;
     justify-content: center;
@@ -33,7 +31,7 @@
   }
   
   .menu__item {
-    margin-top: 15%;
+    margin-top: 48px;
   }
   
   .menu__link {
@@ -53,7 +51,7 @@
   .menu-btn__bar::before,
   .menu-btn__bar::after {
     content: "";
-    background: white;
+    background: #282828;
     height: 2px;
     width: 100%;
     position: absolute;
@@ -91,3 +89,14 @@
     background-color: rgb(255, 255, 255); 
     margin: 20px auto;
 }
+
+  .class {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: start;
+    margin-left: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+    color: #ffffff;
+  }

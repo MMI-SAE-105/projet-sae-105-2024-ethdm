@@ -5,14 +5,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 37px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #282828;
 }
 
 .header.container{
     width: 100%;
     position: fixed;
+    background-color: white;
     top: 0;
     left: 0;
     z-index: 1000; 
@@ -21,7 +22,7 @@
     font-family: 'Viaoda Libre', cursive;
     font-size: 36px;
     font-weight: 400;
-    color: white;
+    color: #282828;
     margin-left: 1rem;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .header_image img{
-    padding-top: 197.2px;
+    padding-top: 130px;
     max-width: 100%; 
     height: auto; 
     margin-bottom: 20px; 
@@ -48,5 +49,5 @@
 .header__menu-btn{
     position: absolute;
     top: -15px;
-    right: 15px;
+    right: 1rem;
 }

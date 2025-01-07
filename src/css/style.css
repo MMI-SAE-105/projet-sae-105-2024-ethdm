@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sura:wght@400;700&family=Viaoda+Libre&display=swap');
 
 /* vendors */
-@import "vendors/normalize.css";
+@import "/src/css/vendors/normalize.css";
 
 /* utilitaire */
-@import "utilitaire/variable.css";
+@import "/src/css/utilitaire/variable.css";
 
 /* base */
-@import "base/main.css";
+@import "/src/css/base/main.css";
 
 /* composant */
-@import "composant/composant.css";
-@import "/composant/caroussel.css";
+@import "/src/css/composant/composant.css";
+@import "/src/css/composant/caroussel.css";
 /* layout */
-@import "layout/header.css";
-@import "layout/menu.css";
+@import "/src/css/layout/header.css";
+@import "/src/css/layout/menu.css";
 @import "/src/css/layout/footer.css";
