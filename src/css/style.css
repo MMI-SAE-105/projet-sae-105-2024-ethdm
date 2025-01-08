@@ -13,6 +13,8 @@
 /* composant */
 @import "/src/css/composant/composant.css";
 @import "/src/css/composant/caroussel.css";
+@import "/src/css/composant/frise.css";
+
 /* layout */
 @import "/src/css/layout/header.css";
 @import "/src/css/layout/menu.css";

@@ -1,0 +1,57 @@
+.timeline-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.timeline__title{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title__line--before::before{
+    content: '';
+    display: inline-block;
+    width: 60%;
+    height: 1px;
+    background-color: #000;
+    margin: 10px;
+}
+
+.title__line--after::after{
+    content: '';
+    display: inline-block;
+    width: 30%;
+    height: 1px;
+    background-color: #000;
+    margin: 0px;
+}
+
+.timeline__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.timeline::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 1250px;
+    background-color: #000;
+    left: 50%;
+    margin-top: 0;
+}
+
+.timeline__text{
+    width: 40%;
+}
+
+.timeline__img{
+    width: 40%;
+    height: 40%;
+}

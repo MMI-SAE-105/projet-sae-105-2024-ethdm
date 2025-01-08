@@ -66,7 +66,7 @@
 
 .ligne {
     border-top: 1px solid #000;
-    margin: 10px 25px 10px 0px;
+    margin: 10px 25px 10px 25px;
 }
 
 .image-containerb img {
@@ -128,60 +128,6 @@
 /*fin bloc article page accueil*/
 
 /*frise*/
-
-.timeline-container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    text-align: center;
-}
-
-.timeline {
-    position: relative;
-    margin: 0 auto;
-    padding: 20px;
-    border-left: 2px solid #000;
-}
-
-.timeline-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.timeline-item .timeline-text {
-    flex: 1;
-    text-align: left;
-    padding-right: 20px;
-}
-
-.timeline-item .timeline-image {
-    flex: 1;
-    text-align: right;
-}
-
-.timeline-item .timeline-image img {
-    max-width: 100px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.timeline-item:nth-child(odd) {
-    flex-direction: row-reverse;
-}
-
-.timeline-item p {
-    font-size: 1em;
-    line-height: 1.6;
-    margin: 0;
-}
-
-.timeline-item img {
-    border: 1px solid #fff;
-    border-radius: 5px;
-}
 
 /*Contact*/
 
