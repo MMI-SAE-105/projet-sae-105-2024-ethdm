@@ -127,7 +127,6 @@
 
 /*fin bloc article page accueil*/
 
-/*frise*/
 
 /*Contact*/
 
@@ -186,3 +185,41 @@
 }
 
 /*fin contact*/
+
+/*autreproj*/
+
+.apcontainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.logo {
+    width: 36%;
+    object-fit: cover;
+}
+
+.ap-details p block {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.btnap {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+.btnap:hover {
+    background-color: #333;
+    color: #fff;
+}

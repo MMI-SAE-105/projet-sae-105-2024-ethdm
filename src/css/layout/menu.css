@@ -31,7 +31,11 @@
   }
   
   .menu__item {
-    margin-top: 48px;
+    margin-top: 35px;
+  }
+
+  .menu__iteml {
+    margin-top: 20px;
   }
   
   .menu__link {
@@ -40,6 +44,7 @@
   }
 
   .menu__linkl {
+    font-size: 22px;
     color: white;
     text-decoration: none;
   }
